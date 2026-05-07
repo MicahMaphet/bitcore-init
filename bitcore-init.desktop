@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=bitcore-init
+Comment=Open bitcore applications
+Exec=bash -lc 'zed -n ~/dev/bitcore; ghostty --working-directory="$HOME/dev/bitcore/packages/bitcore-node" & brave'
+Icon=bitcore
+Terminal=false
+Categories=Development;
+StartupNotify=true
